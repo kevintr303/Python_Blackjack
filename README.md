@@ -1,5 +1,5 @@
 # Blackjack in Python
-This is a simple game of Blackjack that was made entirely in Python. It has basic functionality such as not allowing duplicates of cards to appear, and winning on a Blackjack draw (getting 21 on your first two cards).
+This is a simple game of Blackjack that was made entirely in Python. It has basic functionality such as not allowing duplicates of cards to appear, and winning on a Blackjack draw (getting 21 on your first two cards). The dealer will also hit on <16, and stay on >17
 [![Blackjack in Python](screenshots/blackjack.png)](#Installation)
 
 # Installation
