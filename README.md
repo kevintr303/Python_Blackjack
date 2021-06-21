@@ -18,7 +18,7 @@ python main.py
 # Future updates
 Whilst I can't guarantee I'll return to this project in the future, some possibly updates that can happen (that the game
 doesn't include) is maybe a money system (where you can bet, double down, etc.), insurance if dealer has an Ace, and
-other functionalities like splitting pairs.
+other functionalities like splitting pairs. There are some occasional bugs as well, but it works most of the time.
 
 # Information
 This is a pretty simple game of blackjack that uses Python OOP (Object-Oriented-Programming). I made it for fun
