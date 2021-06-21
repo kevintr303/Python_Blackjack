@@ -123,17 +123,30 @@ def reveal_dealer():
             has_an_ace = True
         else:
             total_value += dealer_card.value
+    added_11 = None
     if has_an_ace:
         if total_value + 11 > 21:
             total_value += 1
         elif total_value + 11 <= 21:
             total_value += 11
+            added_11 = True
     while total_value <= 16:
         random_card = generate_card()
         while check_if_exist(random_card):
             random_card = generate_card()
         dealer_cards.append(random_card)
-        total_value += random_card.value
+        try:
+            total_value += random_card.value
+        except TypeError:
+            if total_value + 11 > 21:
+                total_value += 1
+            elif total_value + 11 <= 21:
+                total_value += 11
+                added_11 = True
+        if total_value > 21:
+            if has_an_ace and added_11:
+                total_value -= 10
+                added_11 = False
     for dealer_card in dealer_cards:
         print(dealer_card.card())
         sleep(1)
