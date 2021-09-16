@@ -24,3 +24,5 @@ other functionalities like splitting pairs. There are some occasional bugs as we
 This is a pretty simple game of blackjack that uses Python OOP (Object-Oriented-Programming). I made it for fun
 and to get some more practice with using classes and objects. At the moment of writing this, I have
 studied Python for 4-5 months, so I'm doing as many projects as I can to improve myself. :)
+
+As said above, there are some occasional bugs, but for the most part it's functional blackjack. You can use this for whatever you want, and it's under the MIT License.
